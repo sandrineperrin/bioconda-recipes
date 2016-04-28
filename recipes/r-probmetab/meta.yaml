@@ -20,6 +20,10 @@ requirements:
     - bioconductor-multtest
     - r-rcpparmadillo
     - r-genenet
+    - r-hwriter
+    - r-rcurl
+    - r-rjson
+    - r-xml
 
   run:
     - r
@@ -27,6 +31,10 @@ requirements:
     - bioconductor-multtest
     - r-rcpparmadillo
     - r-genenet
+    - r-hwriter
+    - r-rcurl
+    - r-rjson
+    - r-xml
 
 test:
   commands:
