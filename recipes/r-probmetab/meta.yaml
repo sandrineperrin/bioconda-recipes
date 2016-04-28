@@ -19,12 +19,14 @@ requirements:
     - bioconductor-camera
     - bioconductor-multtest
     - r-rcpparmadillo
+    - r-genenet
 
   run:
     - r
     - bioconductor-camera
     - bioconductor-multtest
     - r-rcpparmadillo
+    - r-genenet
 
 test:
   commands:
