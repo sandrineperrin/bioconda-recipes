@@ -24,6 +24,9 @@ requirements:
     - r-rcurl
     - r-rjson
     - r-xml
+    - bioconductor-rcytoscape
+    - libnetcdf 4.2.1.1
+    #- bioconductor-mzr
 
   run:
     - r
@@ -35,6 +38,9 @@ requirements:
     - r-rcurl
     - r-rjson
     - r-xml
+    - bioconductor-rcytoscape
+    - libnetcdf 4.2.1.1
+    #- bioconductor-mzr
 
 test:
   commands:
