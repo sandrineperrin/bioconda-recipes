@@ -1,8 +1,5 @@
 #!/bin/bash
 
-git clone https://github.com/rsilvabioinfo/ProbMetab.git ProbMetab
-cd ProbMetab
-
 # R refuses to build packages that mark themselves as Priority: Recommended
 mv DESCRIPTION DESCRIPTION.old
 grep -v '^Priority: ' DESCRIPTION.old > DESCRIPTION
